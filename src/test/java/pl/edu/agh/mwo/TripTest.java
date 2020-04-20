@@ -8,7 +8,7 @@ public class TripTest {
 	@Test
 	public void testConstructor() {
 		Trip trip = new Trip("nazwa", "opis");
-		assertEquals("nazwa", trip.getName());
+		assertEquals("ndazwa", trip.getName());
 		assertEquals("opis", trip.getDescription());
 	}
 
