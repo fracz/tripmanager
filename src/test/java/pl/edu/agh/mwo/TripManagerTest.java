@@ -31,12 +31,5 @@ public class TripManagerTest {
 		tripManager.add(trip);
 	}
 
-	@Test
-	public void testRemoveTrip() throws Exception {
-		tripManager.add(trip);
-		assertEquals(1, tripManager.getTrips().size());
-		tripManager.remove(trip.getName());
-		assertEquals(0, tripManager.getTrips().size());
-		fail("chcemy zespuc");
-		}
+	
 }
